@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <script src="https://kit.fontawesome.com/c27622e685.js" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="./Style.css" type="text/css">
+    </head>
+    <body>
+        
+        <div class="container-fluid position-relative">
+            <!---------------------------------- Nav bar ---------------------------------------->
+            <nav class="d-flex justify-content-between align-items-center position-fixed">
+                <h1>Karthik</h1>
+                <div id="navBar">
+                    <a href="#">
+                        Home
+                    </a>
+                    <a href="#about">
+                        About Me
+                    </a>
+                    <a href="#skills">
+                        Skills
+                    </a>
+                    <a href="#education">
+                        Education 
+                    </a>
+                    <a href="#projects">
+                        Projects
+                    </a>
+                    <a href="#contact" class="conBut">
+                        Contact
+                    </a>
+                </div>
+                <i class="fa-solid fa-bars fs-4" onclick="subnv()"></i>
+            </nav>
+
+            <!---------------------------------- Hero Section ---------------------------------------->
+            <div class="hero">
+                <div class="row">
+                    <div class="col-md-9 p-md-5 p-5">
+                        <h4>I'm a</h4>
+                        <h1>MECHANICAL DESIGN ENGINEER <i class="fa-solid fa-square"></i></h1>
+                        <a href="#projects">
+                            <button>See My Works</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!---------------------------------- About Section ---------------------------------------->
+            <div class="about" id="about">
+                <div class="row">
+                    <div class="col-md-5 p-0 text-center d-flex justify-content-center">
+                        <div class="position-relative img">
+                            <img src="./images/i1.JPG" alt="veera" >
+                        </div>
+                    </div>
+                    <div class="col-md-7 p-md-5 p-3 pt-5">
+                        <h1 class="fw-bold">About Me</h1>
+                        <h4>Hello...I am <span>KARTHIK PRABHU</span></h4>
+                        <p>
+                            A graduate in Mechanical engineering and expert in Design & Modelling for the product development and ensuring functionality and   
+                            having a wide knowledge in CAD background to support the design and innovation drives my commitment to excel in the field of 
+                            mechanical engineering. Extremely organized and detail-oriented with good team spirit.   
+                        </p>
+                        <div class="text-center">
+                            <button>
+                                <a href="mailto:karthikprabhu2002akp@gmail.com" target="_blank">
+                                    HIRE ME
+                                </a>
+                            </button>
+                            <a href="https://drive.google.com/file/d/1XCA8yHY8tagqMQ8vY1CTBGyJ8zV6dvil/view?usp=drivesdk" target="_blank">
+                                <button class="position-relative">
+                                    RESUME
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!---------------------------------- Skills Section ---------------------------------------->
+            <div class="skills" id="skills">
+                <h1 class="text-center fw-bold">
+                    Skills
+                </h1>
+                
+                <div class="d-flex flex-wrap gap-5 justify-content-center align-items-center pt-5 pb-5">
+                    <div class="sk">
+                        <img src="./images/AutoCAD.png" alt="">
+                        <h4 class="text-center pt-3 fw-bold">AutoCAD</h4>
+                    </div>
+                    <div class="sk">
+                        <img src="./images/Creo.png" alt="">
+                        <h4 class="text-center pt-3 fw-bold">Creo</h4>
+                    </div>
+                    <div class="sk d-flex justify-content-center align-items-center flex-column">
+                        <img src="./images/Solid.png" alt="">
+                        <h4 class="text-center pt-3 fw-bold">Solid Works</h4>
+                    </div>
+                    <div class="sk d-flex justify-content-center align-items-center flex-column">
+                        <img src="./images/Catia.jpg" alt="">
+                        <h4 class="text-center pt-3 fw-bold">CatiaV5</h4>
+                    </div>
+                </div>
+            </div>
+
+            <!---------------------------------- Education Section ---------------------------------------->
+            <div class="education" id="education">
+                <h1 class="text-center fw-bold">
+                    Education
+                </h1>
+                <div class="row p-md-5 p-3 align-items-center justify-content-center a education" id="education">
+                    <div class="col-md-7 p-3 edu position-relative">
+                        <i class="fa-solid fa-school d-flex justify-content-center align-items-center position-absolute"></i>
+                        <div class="edubox p-3 mt-4 mb-4">
+                            <h5 class="mb-3">B.E Mechanical Engineering</h5>
+                            <h2 class="mb-3">University College of Engineering, Trichy</h2>
+                            <h6 class="mb-3">2020 - 2024</h6>
+                            <h6>CGPA : 7.8</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-7 p-3 edu position-relative">
+                        <i class="fa-solid fa-school d-flex justify-content-center align-items-center position-absolute"></i>
+                        <div class="edubox p-3 mt-4 mb-4">
+                            <h5 class="mb-3">HSC</h5>
+                            <h2 class="mb-3">Sri Shanmuka Matric.Hr.Sec.School, Mannargudi</h2>
+                            <h6 class="mb-3">2018 - 2020</h6> 
+                            <h6>Percentage : 68.5%</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-7 p-3 edu position-relative">
+                        <i class="fa-solid fa-user-graduate d-flex justify-content-center align-items-center position-absolute"></i>
+                        <div class="edubox p-3 mt-4 mb-4">
+                            <h5 class="mb-3">SSLC</h5>
+                            <h2 class="mb-3">Sri Shanmuka Matric.Hr.Sec.School, Mannargudi</h2>
+                            <h6 class="mb-3">2017 - 2018</h6>
+                            <h6>Percentage : 90.2%</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!---------------------------------- Project Section ---------------------------------------->
+            <div class="project" id="projects">
+                <h1 class="text-center fw-bold">
+                    Projects
+                </h1>   
+                <div class="row justify-content-center align-items-center pt-5 pb-5 gap-5">
+                    <div class="col-md-7 col-10 pro position-relative p-md-5 p-3 pt-4 pb-4">
+                        <h1>Study and Analysis of Aluminium Boron Carbide composite</h1>
+                        <p>
+                            The work is aimed to provide a detailed picture of Metal matrix composites (MMCs) possess significantly improved 
+                            properties including high specific strength; specific modulus, damping capacity and good wear resistance compared to unreinforced 
+                            alloys. There has been an increasing interest in composites containing low density and low-cost reinforcements.
+                        </p>
+                        <a href="https://docs.google.com/presentation/d/1XQbEkM0Db3GI8yFxPe3G2BgeyZd7c0Mt/edit?usp=drivesdk&ouid=113965235017095969839&rtpof=true&sd=true" target="_blank">
+                            <button><i class="fa-solid fa-book"></i> Project Documentation</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!---------------------------------- Contact Section ---------------------------------------->
+            <div class="row p-md-5 p-3 align-items-center justify-content-center contact text-center contact" id="contact">
+                <div class="col-md-7">
+                    <h4>What's Next?</h4>
+                    <h1 class="fw-bold">Get In Touch</h1>
+                    <h5 class="text-center">My inbox is always open. Whether you have a question or just want to say hello, I'll try my best to get back to you! Feel free to mail me about any relevant job updates.</h5>
+                    <div class="d-flex align-items-center flex-column position-relative m-5 mb-0">
+                        <a href="mailto:karthikprabhu2002akp@gmail.com" target="_blank">
+                            <i class="fa-solid fa-envelope rounded-circle d-flex justify-content-center align-items-center"></i>
+                        </a>
+                        <div class="fontname">Mail</div>
+                    </div>
+                    <h1 class="mt-4">Or</h1>
+                </div>   
+                <div class="col-md-7 d-flex justify-content-center align-items-center gap-5 mt-5 flex-wrap">
+                    <div class="d-flex align-items-center flex-column position-relative mb-3">
+                        <a href="https://www.linkedin.com/in/karthik-prabhu-022433219?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                            <i class="fa-brands fa-linkedin-in rounded-circle d-flex justify-content-center align-items-center"></i>
+                        </a>
+                        <div class="fontname">Linkedin</div>
+                    </div>
+                    <div class="d-flex align-items-center flex-column position-relative mb-3">
+                        <a href="tel:+919361214833">
+                            <i class="fa-solid fa-phone-volume rounded-circle d-flex justify-content-center align-items-center"></i>
+                        </a>
+                        <div class="fontname">Call</div>
+                    </div>
+                </div> 
+            </div>
+
+            <!---------------------------------- Footer Section ---------------------------------------->
+
+            <footer class="row mt-5 justify-content-center">
+                <div class="col-12 pt-3">
+                  <p class="text-center">Copyright © 2025. All rights reserved.</p>
+                </div>
+            </footer>
+
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="./index.js"></script>
+    </body>
+</html>
